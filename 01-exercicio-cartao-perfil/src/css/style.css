@@ -1,0 +1,78 @@
+body {
+    background-color: var(--cor-do-fundo);
+}
+
+main {
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: 'kumbh Sans';
+   
+}
+
+main .cartao {
+    background-color: #fff;
+    display: flex;
+    width: 305px;
+    height: 325px;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+main .cartao .image {
+  width: 30%;
+  height: 28%;
+  display: flex;
+  margin: auto;
+
+}
+
+main .cartao .nome-e-idade {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main .cartao .nome-e-idade h2 {
+    font-size: 18px;
+}
+
+main .cartao .nome-e-idade p {
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: bolder;
+    color: rgb(162, 160, 160);
+}
+
+main .cartao .cidade {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 28px;
+    color: rgb(162, 160, 160);
+}
+
+lu  {
+ display: flex;
+ height: 98px;
+ justify-content: space-evenly;
+ border-top: 2px solid rgb(213, 210, 210);
+}
+
+lu li {
+    margin-top: 22px;
+    text-align: center;
+    
+}
+
+li h2 {
+   font-size: 18px;
+   font-weight: bolder;
+}
+
+lu li p {
+    color: rgb(162, 160, 160);
+}
