@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu com flexbox</title>
+    <title>Menu Flexbox</title>
+
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@800&family=Public+Sans:wght@400;800&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="layout-menu">
+    <header class="header">
+        <a href="#" class="logo">
             <img src="src/img/logo.png" alt="Logo">
             <h1>thebank</h1>
-        </div>
-        <div>
-            <lu class="menu">
-                <li class="home">Home</li>
-                <li class="sobre">Sobre</li>
-                <li class="contato">Contato</li>
-                <li class="blog">Blog</li>
-                <li class="carreira">Carreira</li>
-                <li class="cadastre-se"><button>Casdrastre-se</button></li>
-            </lu>
-        </div>
+        </a>
+
+        <nav >
+            <ul class="menu">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Sobre</a> </li>
+                <li> <a href="#">Contato</a> </li>
+                <li> <a href="#">Blog</a> </li>
+                <li><a href="#">Carreira</a> </li>
+                <li> <a href="#" class="botao">Cadastre-se</a> </li>
+            </ul>
+        </nav>
+
     </header>
 </body>
 </html>

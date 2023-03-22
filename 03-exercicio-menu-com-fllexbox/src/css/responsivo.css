@@ -1,0 +1,25 @@
+@media (max-width:830px) {
+    .header {
+        flex-direction: column;
+
+    }
+    .menu {
+        flex-direction: column;
+        margin-top: 50px;    }
+    
+    .menu li {
+        padding: 20px 0;
+    }
+
+    .menu li a {
+        font-size: 25px;
+        padding: 17px 40px;
+    }
+
+    .menu li .botao {
+        font-size: 18px;
+    }
+
+    
+
+}
